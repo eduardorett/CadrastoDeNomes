@@ -28,7 +28,7 @@
     <Button
         android:layout_width="160dp"
         android:layout_height="160dp"
-        android:text="NUMI"
+        android:text="Pegar nome"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
