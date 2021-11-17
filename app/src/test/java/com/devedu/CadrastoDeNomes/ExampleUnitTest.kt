@@ -1,4 +1,4 @@
-package com.devedu.martina
+package com.devedu.CadrastoDeNomes
 
 import org.junit.Test
 

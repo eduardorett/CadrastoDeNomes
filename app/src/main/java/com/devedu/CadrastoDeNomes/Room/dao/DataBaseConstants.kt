@@ -1,4 +1,4 @@
-package com.devedu.martina.Room.dao
+package com.devedu.CadrastoDeNomes.Room.dao
 
 class DataBaseConstants private constructor() {
 

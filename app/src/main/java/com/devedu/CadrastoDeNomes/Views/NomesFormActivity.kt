@@ -1,12 +1,12 @@
-package com.devedu.martina.Views
+package com.devedu.CadrastoDeNomes.Views
 
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import com.devedu.martina.R
-import com.devedu.martina.ViewModel.NomesViewModel
+import com.devedu.CadrastoDeNomes.R
+import com.devedu.CadrastoDeNomes.ViewModel.NomesViewModel
 import kotlinx.android.synthetic.main.nomesform_side.*
 
 

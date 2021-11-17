@@ -1,10 +1,10 @@
-package com.devedu.martina.Repositorys
+package com.devedu.CadrastoDeNomes.Repositorys
 
 
 import android.content.Context
 import androidx.lifecycle.LiveData
-import com.devedu.martina.Room.dao.NomesEntity
-import com.devedu.martina.Room.dao.NomesDataBase
+import com.devedu.CadrastoDeNomes.Room.dao.NomesEntity
+import com.devedu.CadrastoDeNomes.Room.dao.NomesDataBase
 
 class GuestRepository(context: Context) {
 

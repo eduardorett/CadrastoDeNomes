@@ -1,10 +1,10 @@
-package com.devedu.martina.ViewModel
+package com.devedu.CadrastoDeNomes.ViewModel
 
 
 import android.app.Application
 import androidx.lifecycle.*
-import com.devedu.martina.Room.dao.NomesEntity
-import com.devedu.martina.Repositorys.GuestRepository
+import com.devedu.CadrastoDeNomes.Room.dao.NomesEntity
+import com.devedu.CadrastoDeNomes.Repositorys.GuestRepository
 
 
 class NomesViewModel(application: Application)  : AndroidViewModel(application){

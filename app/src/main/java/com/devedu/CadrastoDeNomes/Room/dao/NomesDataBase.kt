@@ -1,4 +1,4 @@
-package com.devedu.martina.Room.dao
+package com.devedu.CadrastoDeNomes.Room.dao
 
 import android.content.Context
 import androidx.room.Database

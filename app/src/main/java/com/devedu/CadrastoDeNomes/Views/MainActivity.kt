@@ -1,4 +1,4 @@
-package com.devedu.martina.Views
+package com.devedu.CadrastoDeNomes.Views
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

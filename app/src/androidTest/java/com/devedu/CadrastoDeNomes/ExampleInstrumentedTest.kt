@@ -1,4 +1,4 @@
-package com.devedu.martina
+package com.devedu.CadrastoDeNomes
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
