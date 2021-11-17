@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">martina</string>
+    <string name="app_name">Nomes</string>
     <string name="nome_created">O nome foi criado</string>
     <string name="nome_update">O nome foi atualizado</string>
 </resources>
