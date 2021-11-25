@@ -40,7 +40,7 @@ class NomesFormActivity : AppCompatActivity(),View.OnClickListener{
         val nomeInsert =  insercaoDeNome.text.toString()
 
 
-       // mViewModel.addNome(nomeInsert,mNomeId)
+        mViewModel.addNome(nomeInsert,mNomeId)
     }
 
 

@@ -24,21 +24,19 @@ class NomesViewModel(application: Application)  : AndroidViewModel(application){
     this.id = id
     this.nome =nomeInsert
 }
-        when {
-            id == 0 -> {
+       if (id == 0 && nomeInsert != ""){
                 nomesRepo.mInsert(nome)
                 mValidation.value = true
+            }
+        if (id != 0 && nomeInsert != ""){
+            nomesRepo.mUpdate(nome)
+            mValidation.value=true
+        }
+        if ( nomeInsert == ""){
+            mValidation.value = false
+        }
 
-
-            }
-            id != 0 -> {
-                nomesRepo.mUpdate(nome)
-                mValidation.value=true
-            }
-            nomeInsert =="" -> {
-                mValidation.value = false
-            }
         }
 }
-}
+
 
