@@ -1,4 +1,4 @@
-package com.devedu.CadrastoDeNomes.Room.dao
+package com.devedu.cadrastodenomes.room.dao
 
 import android.content.Context
 import androidx.room.Database

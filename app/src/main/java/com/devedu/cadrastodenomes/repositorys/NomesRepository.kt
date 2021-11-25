@@ -1,12 +1,12 @@
-package com.devedu.CadrastoDeNomes.Repositorys
+package com.devedu.cadrastodenomes.repositorys
 
 
 import android.content.Context
 import androidx.lifecycle.LiveData
-import com.devedu.CadrastoDeNomes.Room.dao.NomesEntity
-import com.devedu.CadrastoDeNomes.Room.dao.NomesDataBase
+import com.devedu.cadrastodenomes.room.dao.NomesEntity
+import com.devedu.cadrastodenomes.room.dao.NomesDataBase
 
-class GuestRepository(context: Context) {
+class NomesRepository(context: Context) {
 
     // Acesso ao banco de dados
 
@@ -25,7 +25,7 @@ class GuestRepository(context: Context) {
     }
 
 
-    fun mGetAll():LiveData<List<NomesEntity>>{
+    fun mGetAll(): List<NomesEntity>{
         return mDataBase.getAll()
     }
 

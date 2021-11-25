@@ -1,4 +1,4 @@
-package com.devedu.CadrastoDeNomes.Room.dao
+package com.devedu.cadrastodenomes.room.dao
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

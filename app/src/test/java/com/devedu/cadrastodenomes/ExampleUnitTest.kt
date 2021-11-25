@@ -1,4 +1,4 @@
-package com.devedu.CadrastoDeNomes
+package com.devedu.cadrastodenomes
 
 import org.junit.Test
 

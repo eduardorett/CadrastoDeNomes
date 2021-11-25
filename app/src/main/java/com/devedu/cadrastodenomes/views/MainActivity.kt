@@ -1,10 +1,10 @@
-package com.devedu.CadrastoDeNomes.Views
+package com.devedu.cadrastodenomes.views
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.app.ActionBar
-import com.devedu.CadrastoDeNomes.R
+import com.devedu.cadrastodenomes.R
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -16,6 +16,10 @@ class MainActivity : AppCompatActivity() {
 
         nomeFormButton.setOnClickListener {
             startActivity(Intent(this, NomesFormActivity::class.java))
+        }
+
+        buttonExibirNome.setOnClickListener {
+            startActivity(Intent(this, ExibirNomesActivity::class.java))
         }
 
     }

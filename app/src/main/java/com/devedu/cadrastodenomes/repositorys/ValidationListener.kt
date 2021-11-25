@@ -1,4 +1,4 @@
-package com.devedu.CadrastoDeNomes.Repositorys
+package com.devedu.cadrastodenomes.repositorys
 
 class ValidationListener(str:String = "") {
 
