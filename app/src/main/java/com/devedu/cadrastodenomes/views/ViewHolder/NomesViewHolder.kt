@@ -13,7 +13,7 @@ class NomesViewHolder(itemView: View, private val listener: NomesListener) :
     RecyclerView.ViewHolder(itemView) {
   fun bind(guest: NomesEntity) {
 
-    val textName = itemView.findViewById<TextView>(R.id.lista_completa)
+    val textName = itemView.findViewById<TextView>(R.id.text_name)
 
 
         textName.text = guest.nome

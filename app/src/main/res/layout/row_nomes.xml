@@ -5,11 +5,12 @@
     android:orientation="vertical">
 
     <TextView
-        android:id="@+id/lista_completa"
+        android:id="@+id/text_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:textSize="16sp"
-        android:text="Nome" />
+        android:textSize="30sp"
+        android:text="Nome"
+        android:textColor="@color/black"/>
 
 </LinearLayout>
