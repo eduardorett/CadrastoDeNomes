@@ -1,11 +1,13 @@
 package com.devedu.cadrastodenomes.views
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.devedu.cadrastodenomes.R
+import com.devedu.cadrastodenomes.nav
 import com.devedu.cadrastodenomes.viewmodel.NomesViewModel
 import kotlinx.android.synthetic.main.nomesform_side.*
 
@@ -20,6 +22,11 @@ class NomesFormActivity : AppCompatActivity(), View.OnClickListener {
         setContentView(R.layout.nomesform_side)
 
         mViewModel = ViewModelProvider(this).get(NomesViewModel::class.java)
+
+        goBack.setOnClickListener{
+            startActivity(Intent(this, nav ::class.java))
+
+        }
 
         observe()
         listeners()

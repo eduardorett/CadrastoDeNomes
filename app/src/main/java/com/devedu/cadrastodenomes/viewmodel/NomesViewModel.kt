@@ -41,6 +41,11 @@ class NomesViewModel(application: Application) : AndroidViewModel(application) {
     fun getAllNomes(){
         mNomes.value = nomesRepo.mGetAll()
     }
+
+
+    fun delete(id:Int){
+     nomesRepo.mDelete(id)
+    }
 }
 
 
