@@ -3,17 +3,8 @@ package com.devedu.cadrastodenomes.views
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.widget.Button
 import androidx.appcompat.app.ActionBar
-import androidx.fragment.app.Fragment
-import androidx.navigation.NavController
-import androidx.navigation.ui.AppBarConfiguration
-import com.devedu.cadrastodenomes.BlankFragment
 import com.devedu.cadrastodenomes.R
-import com.devedu.cadrastodenomes.R.id.nav_view
-import com.devedu.cadrastodenomes.nav
-import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_main.*
 
  class MainActivity : AppCompatActivity() {
@@ -39,6 +30,12 @@ import kotlinx.android.synthetic.main.activity_main.*
         nomeFormButton.setOnClickListener {
             startActivity(Intent(this, NomesFormActivity::class.java))
         }
+
+        buttonExibirNome.setOnClickListener {
+            startActivity(Intent(this, ExibirNomesActivity::class.java))
+        }
+
+
 
 
 

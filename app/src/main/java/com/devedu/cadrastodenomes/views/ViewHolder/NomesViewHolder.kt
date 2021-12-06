@@ -1,10 +1,10 @@
-package com.devedu.CadrastoDeNomes.Views.ViewHolder
+package com.devedu.cadrastodenomes.views.ViewHolder
 
 import android.app.AlertDialog
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.devedu.CadrastoDeNomes.Views.Listener.NomesListener
+import com.devedu.cadrastodenomes.views.Listener.NomesListener
 import com.devedu.cadrastodenomes.R
 import com.devedu.cadrastodenomes.room.dao.NomesEntity
 

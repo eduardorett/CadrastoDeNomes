@@ -2,7 +2,6 @@ package com.devedu.cadrastodenomes.repositorys
 
 
 import android.content.Context
-import androidx.lifecycle.LiveData
 import com.devedu.cadrastodenomes.room.dao.NomesEntity
 import com.devedu.cadrastodenomes.room.dao.NomesDataBase
 

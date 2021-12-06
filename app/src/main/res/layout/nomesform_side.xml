@@ -7,14 +7,7 @@
     tools:context=".views.NomesFormActivity"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:text="Cadastro de Nome" />
+
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/actionbar"
@@ -25,28 +18,22 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
 
-    <ToggleButton
-        android:id="@+id/musicButton"
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
-       app:layout_constraintLeft_toLeftOf="parent"
-        />
-
-    <Button
-        android:id="@+id/goBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actionbar"
+        android:layout_marginTop="50dp"
+        android:textSize="10pt"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:text="retornar"
-        />
+        android:text="Cadastro de Nome" />
 
 
     <EditText
         android:id="@+id/insercaoDeNome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="30dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:hint="Favor digitar um nome"
@@ -56,8 +43,20 @@
         android:id="@+id/btnSalvar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
         android:text="Salvar"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/insercaoDeNome" />
+
+    <Button
+        android:id="@+id/goBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/btnSalvar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="retornar"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
