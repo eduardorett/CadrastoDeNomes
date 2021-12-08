@@ -1,9 +1,9 @@
-package com.devedu.cadrastodenomes.repositorys
+package com.devedu.cadrastodenomes.Repositorys
 
 
 import android.content.Context
-import com.devedu.cadrastodenomes.room.dao.NomesEntity
-import com.devedu.cadrastodenomes.room.dao.NomesDataBase
+import com.devedu.cadrastodenomes.Room.NomesEntity
+import com.devedu.cadrastodenomes.Room.NomesDataBase
 
 class NomesRepository(context: Context) {
 

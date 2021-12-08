@@ -3,8 +3,8 @@ package com.devedu.cadrastodenomes.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.*
-import com.devedu.cadrastodenomes.room.dao.NomesEntity
-import com.devedu.cadrastodenomes.repositorys.NomesRepository
+import com.devedu.cadrastodenomes.Room.NomesEntity
+import com.devedu.cadrastodenomes.Repositorys.NomesRepository
 
 
 class NomesViewModel(application: Application) : AndroidViewModel(application) {
@@ -16,7 +16,7 @@ class NomesViewModel(application: Application) : AndroidViewModel(application) {
     val validation: LiveData<Boolean> = mValidation
 
     private var mNomes = MutableLiveData<List<NomesEntity>>()
-    val nome: LiveData<List<NomesEntity>> = mNomes
+    val nomes: LiveData<List<NomesEntity>> = mNomes
 
 
     fun addNome(nomeInsert: String, id: Int) {

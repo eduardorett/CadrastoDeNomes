@@ -1,6 +1,5 @@
-package com.devedu.cadrastodenomes.views
+package com.devedu.cadrastodenomes.Views
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast

@@ -1,9 +1,10 @@
-package com.devedu.cadrastodenomes.room.dao
+package com.devedu.cadrastodenomes.room.Dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
+import com.devedu.cadrastodenomes.Room.NomesEntity
 
 @Dao
 interface NomesDAO {
