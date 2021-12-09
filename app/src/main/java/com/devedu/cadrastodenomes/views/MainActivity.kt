@@ -1,4 +1,4 @@
-package com.devedu.cadrastodenomes.Views
+package com.devedu.cadrastodenomes.views
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

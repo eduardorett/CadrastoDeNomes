@@ -3,10 +3,10 @@ package com.devedu.CadrastoDeNomes.Views
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.devedu.cadrastodenomes.Views.Listener.NomesListener
-import com.devedu.cadrastodenomes.Views.ViewHolder.NomesViewHolder
+import com.devedu.cadrastodenomes.views.Listener.NomesListener
+import com.devedu.cadrastodenomes.views.viewHolder.NomesViewHolder
 import com.devedu.cadrastodenomes.R
-import com.devedu.cadrastodenomes.Room.NomesEntity
+import com.devedu.cadrastodenomes.room.NomesEntity
 
 class NomesAdapter : RecyclerView.Adapter<NomesViewHolder>() {
 

@@ -1,4 +1,4 @@
-package com.devedu.cadrastodenomes.Views
+package com.devedu.cadrastodenomes.views
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,11 +12,11 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.devedu.CadrastoDeNomes.Views.NomesAdapter
 import com.devedu.cadrastodenomes.R
-import com.devedu.cadrastodenomes.Room.NomesConstants
-import com.devedu.cadrastodenomes.Views.Listener.NomesListener
+import com.devedu.cadrastodenomes.room.NomesConstants
+import com.devedu.cadrastodenomes.views.Listener.NomesListener
 import com.devedu.cadrastodenomes.viewmodel.NomesViewModel
 
-class ExibirNomes : Fragment() {
+class ExibirNomesFragment : Fragment() {
 
     private lateinit var mViewModel:  NomesViewModel
     private val mAdapter: NomesAdapter = NomesAdapter()
@@ -24,12 +24,12 @@ class ExibirNomes : Fragment() {
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, s: Bundle?): View? {
         mViewModel = ViewModelProvider(this).get(NomesViewModel::class.java)
-        val root = inflater.inflate(R.layout.activity_exibir_nomes, container, false)
+        val root = inflater.inflate(R.layout.fragment_exibir, container, false)
 
         // Elemento de interface - RecyclerView
         // Não é possível deixar o Kotlin fazer o mapeamento, pois a fragment ainda não está totalmente criada
         // Assim, precisamos buscar o elemento através de findViewById
-        val recycler = root.findViewById<RecyclerView>(R.id.RecyclerNomes)
+        val recycler = root.findViewById<RecyclerView>(R.id.recycler_list)
 
         // Atribui um layout que diz como a RecyclerView se comporta
         recycler.layoutManager = LinearLayoutManager(context)

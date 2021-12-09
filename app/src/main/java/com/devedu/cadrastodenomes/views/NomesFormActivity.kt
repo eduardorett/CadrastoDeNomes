@@ -1,4 +1,4 @@
-package com.devedu.cadrastodenomes.Views
+package com.devedu.cadrastodenomes.views
 
 import android.os.Bundle
 import android.view.View

@@ -1,4 +1,4 @@
-package com.devedu.cadrastodenomes.Views
+package com.devedu.cadrastodenomes.views
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -9,7 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.devedu.cadrastodenomes.R
-import com.devedu.cadrastodenomes.Views.placeholder.PlaceholderContent
+import com.devedu.cadrastodenomes.views.placeholder.PlaceholderContent
 
 /**
  * A fragment representing a list of Items.

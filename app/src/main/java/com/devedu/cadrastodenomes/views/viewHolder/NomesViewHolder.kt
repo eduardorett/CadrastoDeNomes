@@ -1,12 +1,12 @@
-package com.devedu.cadrastodenomes.Views.ViewHolder
+package com.devedu.cadrastodenomes.views.viewHolder
 
 import android.app.AlertDialog
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.devedu.cadrastodenomes.Views.Listener.NomesListener
+import com.devedu.cadrastodenomes.views.Listener.NomesListener
 import com.devedu.cadrastodenomes.R
-import com.devedu.cadrastodenomes.Room.NomesEntity
+import com.devedu.cadrastodenomes.room.NomesEntity
 
 
 class NomesViewHolder(itemView: View, private val listener: NomesListener) :

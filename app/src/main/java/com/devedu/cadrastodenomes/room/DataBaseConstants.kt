@@ -1,4 +1,4 @@
-package com.devedu.cadrastodenomes.Room
+package com.devedu.cadrastodenomes.room
 
 class DataBaseConstants private constructor() {
 

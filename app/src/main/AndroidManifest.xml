@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat" >
         <activity
-            android:name="com.devedu.cadrastodenomes.Views.ExibirNomesActivity"
+            android:name="com.devedu.cadrastodenomes.views.ExibirNomesActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"
             android:exported="true" />
         <activity
-            android:name="com.devedu.cadrastodenomes.Views.MainActivity"
+            android:name="com.devedu.cadrastodenomes.views.MainActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.devedu.cadrastodenomes.Views.NomesFormActivity"
+            android:name="com.devedu.cadrastodenomes.views.NomesFormActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
     </application>

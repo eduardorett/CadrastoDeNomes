@@ -1,4 +1,4 @@
-package com.devedu.cadrastodenomes.Views.placeholder
+package com.devedu.cadrastodenomes.views.placeholder
 
 import java.util.ArrayList
 import java.util.HashMap

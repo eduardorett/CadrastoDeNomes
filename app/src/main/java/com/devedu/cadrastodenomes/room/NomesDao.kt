@@ -4,7 +4,7 @@ import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import com.devedu.cadrastodenomes.Room.NomesEntity
+import com.devedu.cadrastodenomes.room.NomesEntity
 
 @Dao
 interface NomesDAO {

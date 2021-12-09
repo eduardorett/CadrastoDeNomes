@@ -3,8 +3,8 @@ package com.devedu.cadrastodenomes.viewmodel
 
 import android.app.Application
 import androidx.lifecycle.*
-import com.devedu.cadrastodenomes.Room.NomesEntity
-import com.devedu.cadrastodenomes.Repositorys.NomesRepository
+import com.devedu.cadrastodenomes.room.NomesEntity
+import com.devedu.cadrastodenomes.repositorys.NomesRepository
 
 
 class NomesViewModel(application: Application) : AndroidViewModel(application) {

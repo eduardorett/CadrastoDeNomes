@@ -1,13 +1,11 @@
-package com.devedu.cadrastodenomes.Views
+package com.devedu.cadrastodenomes.views
 
 import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import com.devedu.cadrastodenomes.R
 
-import com.devedu.cadrastodenomes.Views.placeholder.PlaceholderContent.PlaceholderItem
+import com.devedu.cadrastodenomes.views.placeholder.PlaceholderContent.PlaceholderItem
 
 import com.devedu.cadrastodenomes.databinding.FragmentItemBinding
 
