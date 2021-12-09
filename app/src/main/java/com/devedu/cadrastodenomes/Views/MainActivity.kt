@@ -19,7 +19,7 @@ import kotlinx.android.synthetic.main.activity_main.*
         }
 
         buttonExibirNome.setOnClickListener {
-            startActivity(Intent(this, ExibirNomes::class.java))
+            startActivity(Intent(this, ExibirNomesActivity::class.java))
         }
 
 
